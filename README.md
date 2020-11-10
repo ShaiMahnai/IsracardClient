@@ -10,4 +10,4 @@ npm install
 npm start
 
 ### To Visit App:
-open in disable-web-security mode: localhost:3000/
+Open a browser in disable-web-security mode and enter: localhost:3000/
