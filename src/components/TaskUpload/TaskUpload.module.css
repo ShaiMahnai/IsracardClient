@@ -1,0 +1,26 @@
+.taskUpload{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+}
+.uploadResult{
+    font-size: 20px;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+.addTask{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.addButton{
+    background-color: chartreuse;
+    width: 100%;
+}

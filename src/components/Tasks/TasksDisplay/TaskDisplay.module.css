@@ -1,0 +1,32 @@
+.taskDisplay {
+}
+
+.list{
+    counter-reset: section;
+}
+.listItem:before {
+    counter-increment: section;
+    content: counter(section) ".";
+    position: absolute;
+    margin-left: -20px;
+
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.listItem {
+    border-top: black dashed 1px;
+    margin-top: 5px;
+    padding-top: 5px;
+
+}
+.listItem span {
+    width: 25%;
+}
+
+.listItem img {
+    width: 70%;
+}

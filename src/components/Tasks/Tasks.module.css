@@ -1,0 +1,11 @@
+
+.tasks {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tasksContent {
+    display: flex;
+}
