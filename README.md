@@ -1,5 +1,6 @@
 ## Installation and Setup Instructions
-Clone down this repository. You will need node and npm installed globally on your machine.
+Clone down this repository (git clone https://github.com/ShaiMahnai/IsracardClient).
+You will need node and npm installed globally on your machine.
 
 ### Installation:
 
