@@ -6,6 +6,7 @@ import {RadioButtons, RadioButtonsGenericType} from "../RadioButtons/RadioButton
 import styles from './Tasks.module.css';
 import {useSelector} from "react-redux";
 import {ApplicationState} from "../../store";
+import {API_URI} from "../../Consts";
 
 enum TasksDisplayed {
     My,
@@ -51,6 +52,6 @@ export const Tasks = () => {
 };
 
 const getTasks = async (): Promise<Task[]> => {
-    const promise = axios.get("https://localhost:44379/api/Task");
+    const promise = axios.get(`${API_URI}/Task`);
     return promise.then((response) => response.data)
 }
