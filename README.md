@@ -1,3 +1,6 @@
+#Isracard Client
+This project was build using Reactjs 17.0.1
+
 ## Installation and Setup Instructions
 Clone down this repository (git clone https://github.com/ShaiMahnai/IsracardClient).
 You will need node and npm installed globally on your machine.
